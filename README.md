@@ -7,4 +7,6 @@ python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 sudo apt-get install libatlas-base-dev libopenjp2-7 # things needed for numpy and pillow
+sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libtbb2 libtbb-dev libjpeg-dev libpng12-dev libtiff-dev libjasper-dev libdc1394-22-dev
+
 ```
